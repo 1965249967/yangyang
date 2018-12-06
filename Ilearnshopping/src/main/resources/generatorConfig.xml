@@ -17,16 +17,16 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!-- 实体类-->
-        <javaModelGenerator targetPackage="com.neuedu.pojo" targetProject=".src/main/java">
+        <javaModelGenerator targetPackage="com.neuedu.pojo" targetProject="./src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
         <!--配置sql文件-->
-        <sqlMapGenerator targetPackage="com.neuedu.mapper" targetProject=".src/main/resources">
+        <sqlMapGenerator targetPackage="com.neuedu.mapper" targetProject="./src/main/resources">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
         <!--生成Dao接口-->
-        <javaClientGenerator targetPackage="com.neuedu.dao" type="XMLMAPPER" targetProject=".src/main/java">
+        <javaClientGenerator targetPackage="com.neuedu.dao" type="XMLMAPPER" targetProject="./src/main/java">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
